@@ -1,0 +1,69 @@
+.navbar {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    height: 100px;
+    width: 100vw;
+    z-index: 1;
+}
+
+#signIn {
+    float: right;
+    margin-right: 50px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+}
+
+.home-img {
+    background: url('https://assets.nflxext.com/ffe/siteui/vlv3/3b48f428-24ed-4692-bb04-bc7771854131/087be50f-41d9-44bb-842b-8ddb05e1d4da/US-en-20200302-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 1900px;
+    height: 900px;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: black;
+}
+
+h1.header-tag {
+    margin-top: 40px;
+    left: -8px;
+    width: 100vw;
+    height:30px;
+    padding-top: 0em;
+    text-align: center;
+    color: white;
+    font-size: 60px;
+}
+
+h1.header-tag2 {
+    margin-top: 10px;
+    left: -8px;
+    width: 100vw;
+    height: 30px;
+    padding-top: 0em;
+    text-align: center;
+    color: white;
+    font-size: 60px;
+}
+
+h2.header-tag {
+    margin-top: 50px;
+    left: -8px;
+    width: 100vw;
+    padding-top: 0em;
+    text-align: center;
+    color: white;
+}
+
+.inputField {
+    text-align: center;
+}
+
+#clickMe {
+    background-color: red;
+    color: white;
+}
