@@ -1,31 +1,61 @@
 .navbar {
-    background-color: rgba(0, 0, 0, 0.5);
     position: fixed;
+    background-color: rgba(0, 0, 0, 0.6);
     top: 0;
-    height: 100px;
-    width: 100vw;
-    z-index: 1;
+    width: 100%;
+    z-index: 100;
+}
+
+.nav-img {
+    float: inline-end;
+    margin: 30px;
+    width: 200px;
+    height: 45px;
 }
 
 #signIn {
     float: right;
-    margin-right: 50px;
-    text-align: center;
+    margin: 30px;
+    border: none;
+    position: absolute;
+    right: 50px;
+    border-radius: 5px;
     background-color: red;
+    padding: 10px;
+    width: 100px;
+    height: auto;
     color: white;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .home-img {
-    background: url('https://assets.nflxext.com/ffe/siteui/vlv3/3b48f428-24ed-4692-bb04-bc7771854131/087be50f-41d9-44bb-842b-8ddb05e1d4da/US-en-20200302-popsignuptwoweeks-perspective_alpha_website_large.jpg');
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 1900px;
+    width: 100%;
     height: 900px;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right:0;
+    top:0;
+    height: 909px;
+    z-index: 0;
 }
 
 body {
     font-family: sans-serif;
     background-color: black;
+}
+
+.home-text {
+    position: absolute;
+    top: 200px;
+    text-align: center;
+    padding: 10px;
+    right: 10px;
+    z-index: 1;
 }
 
 h1.header-tag {
@@ -36,7 +66,7 @@ h1.header-tag {
     padding-top: 0em;
     text-align: center;
     color: white;
-    font-size: 60px;
+    font-size: 80px;
 }
 
 h1.header-tag2 {
@@ -47,7 +77,7 @@ h1.header-tag2 {
     padding-top: 0em;
     text-align: center;
     color: white;
-    font-size: 60px;
+    font-size: 80px;
 }
 
 h2.header-tag {
@@ -57,6 +87,7 @@ h2.header-tag {
     padding-top: 0em;
     text-align: center;
     color: white;
+    font-size: 30px;
 }
 
 .inputField {
@@ -64,6 +95,174 @@ h2.header-tag {
 }
 
 #clickMe {
+    border-radius: 5px;
+    border: none;
+    width: 195px;
+    height: 50px;
+    padding: 5px;
     background-color: red;
     color: white;
+}
+
+#listInput {
+    border-radius: 5px;
+    height: 40px;
+    width: 260px;
+    padding: 5px;
+    border: none;
+}
+
+hr {
+    background-color: darkgray;
+    height: 10px;
+    width: 100%;
+    border: none;
+}
+
+.section1 {
+    z-index: 1;
+    margin: 90px;
+    color: white;
+    font-size: 25px;
+}
+
+.tv {
+    width: 40%;
+    height: 380px;
+    position: absolute;
+    left: 740px;
+    top: 920px;
+}
+
+.phone {
+    width: auto;
+    height: 380px;
+    position: absolute;
+    left: 100px;
+}
+
+.downld {
+    width: auto;
+    height: 80px;
+    position: absolute;
+    left: 480px;
+    top: 1670px;
+}
+
+.section2 {
+    z-index: 1;
+    color: white;
+    position: absolute;
+    left: 750px;
+    top: 1440px;
+    font-size: 25px;
+}
+
+#line {
+    background-color: darkgrey;
+    height: 10px;
+    width: 99%;
+    border: none;
+    position: absolute;
+    top: 1835px;
+}
+
+.section3 {
+    z-index: 1;
+    color: white;
+    position: absolute;
+    font-size: 25px;
+    left: 100px;
+    top: 1940px;
+}
+
+.mac {
+    position: absolute;
+    width: auto;
+    height: 420px;
+    left: 780px;
+    top: 1900px;
+}
+
+#line2 {
+    background-color: darkgrey;
+    height: 10px;
+    width: 99%;
+    border: none;
+    position: absolute;
+    top: 2350px;
+}
+
+.section4 {
+    color: white;
+    position: absolute;
+    font-size: 25px;
+    top: 2355px;
+    left: 415px;
+}
+
+#button1 {
+    position: absolute;
+    top: 2470px;
+    background: grey;
+    border: none;
+    color: white;
+    left: 450px;
+    width: 600px;
+    height: 40px;
+}
+
+#button2 {
+    position: absolute;
+    top: 2520px;
+    background-color: grey;
+    border: none;
+    color: white;
+    left: 450px;
+    width: 600px;
+    height: 40px;
+}
+
+#button3 {
+    position: absolute;
+    top: 2570px;
+    background-color: grey;
+    border: none;
+    color: white;
+    left: 450px;
+    width: 600px;
+    height: 40px;
+}
+
+#button4 {
+    position: absolute;
+    top: 2620px;
+    background-color: grey;
+    border: none;
+    color: white;
+    left: 450px;
+    width: 600px;
+    height: 40px;
+}
+
+#button5 {
+    position: absolute;
+    top: 2670px;
+    background-color: grey;
+    border: none;
+    color: white;
+    left: 450px;
+    width: 600px;
+    height: 40px;
+}
+
+#button6 {
+    position: absolute;
+    top: 2720px;
+    background-color: grey;
+    border: none;
+    color: white;
+    left: 450px;
+    width: 600px;
+    height: 40px;
 }
